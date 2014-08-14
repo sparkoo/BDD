@@ -4,4 +4,8 @@ public class Job {
     public Job(int pages) {
         this.pages = pages;
     }
+
+    public int getPages() {
+        return pages;
+    }
 }
